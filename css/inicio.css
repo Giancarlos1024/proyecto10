@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    background-color:rgb(231, 238, 236);
+    justify-content: space-between;
+    padding: 15px;
+}
+img {
+    width: 100px;
+    height: 100px;
+
+}
+header div {
+    /*background-color: blue;*/
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+header .TI {
+    width: 1000px;
+    justify-content: center;
+}
+/**********************NAVEGACION*/
+nav{
+    background-color: rgb(12, 13, 14);
+    /*background-color: pink;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 15px;
+}
+nav ul {
+    /*background-color: mediumspringgreen;*/
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100% ;
+    height: 20px;
+    align-items: center;
+}
+ul li {
+    
+    padding: 10px;
+    margin: 10px;
+
+}
+nav ul li a {
+    /*background-color: blueviolet;*/
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+
+nav li  a:hover{
+    background-color: rgba(65, 66, 66, 0.466);
+    
+}
+a {
+    text-decoration: none;
+    
+}
+/***********************PRINCIPAL*******************************************/
+main {
+    background-color: rgb(197, 211, 211);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    
+    
+}
+section {
+    /*background-color: orangered;*/
+    
+    display: flex;
+    flex-flow: column wrap;
+    
+    
+    
+}
+
+.caja1 {
+    /*background-color: yellow;*/
+    width: 100%;
+    padding: 15px;
+    height: 500px;
+    background-image: url(/imgproyecto/tecnologia3.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.caja2 {
+    background-color: rgb(7, 8, 7);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+.caja2 P {
+    /*background-color: rgb(68, 0, 255);*/
+    padding: 10px;
+    width: 800px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.caja2 a {
+    background-color: rgb(28, 28, 29);
+    color: white;
+    padding: 10px;
+    padding-right: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+.caja2 a:hover {
+    background-color: aqua;
+}
+/**********************************************************/
+/*CONTENEDOR PRINCIPAL ARTICLE*/
+article {
+    background-color: rgb(16, 214, 32);
+    background-image: url(/imgproyecto/fondo11.jpg);
+    background-position-x: right;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    flex: 1 1 0;
+}
+/*CONTENEDOR SUB PRINCIPAL SECTION*/
+.flex-section{
+    display: flex;
+    /*background-color: rgb(231, 238, 236);*/
+    width: 55%;
+    height: 600px;
+    margin: 20px;
+    justify-content: center;
+    flex-flow: row wrap;
+
+    
+}
+.contenedor1 {
+    /*background-color: orange;*/
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    justify-content: start;
+}
+.contenedor1 .item1,.item2{
+    /*background-color: aqua;*/
+    padding: 5px;
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+}
+.flex-section img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    border-color: rgb(234, 234, 243);
+    
+}
+.flex-section p {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contenedor2 {
+    /*background-color: rgba(219, 20, 170, 0.63);*/
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+
+    justify-content: start;
+}
+.contenedor2 .item3,.item4{
+    /*background-color: rgb(180, 174, 172);*/
+    padding: 5px;
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------*/
+/*ESTILOS DEL FOOTER*/
+footer {
+    /*background-color: aqua;*/
+    background-color: rgb(231, 238, 236);
+    display: flex;
+    flex-direction: column;
+
+}
+footer div {
+    /*background-color: gainsboro;*/
+    margin-left: 45px;
+    padding: 10px;
+}
+footer > p {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
+footer div p {
+    padding-top: 10px;
+}
